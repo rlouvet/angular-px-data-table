@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+    <script src="bower_components/angular/angular.js"></script>
+    <link rel="import" href="bower_components/px-data-table/px-data-table.html"/>
+</head>
+<body>
+  <div ng-controller="MainController">
+      <h1>Donnes RTE</h1>
+      <px-data-table table-data="{{data}}"></px-data-table>
+
+  </div>
+  <script src="app.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+</body>
+</html>
